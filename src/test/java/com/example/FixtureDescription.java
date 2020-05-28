@@ -15,8 +15,9 @@ public class FixtureDescription {
 
     @BeforeMethod
     public void beforeMethod(){
-        System.out.println("before mothod");
+        System.out.println("before mothod method");
     }
+
 
     @Test
     public void discountShouldBeCalculatedTest(){
